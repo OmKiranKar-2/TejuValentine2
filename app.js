@@ -1,4 +1,4 @@
-let anniversary = "2022-10-13";
+let anniversary = "2023-09-16";
 let date = new Date(anniversary);
 let dateVal = date.getTime();
 let today = new Date();
@@ -60,24 +60,19 @@ let soundBarsLottie = bodymovin.loadAnimation({
 
 let trackList = [
     {
-        name: "Only",
-        artist: "Lee Hi",
-        path: "./music/only.mp3",
+        name: "Tum hi ho",
+        artist: "Arjit Singh",
+        path: "./music/Tum Hi Ho.mp3",
     },
     {
-        name: "Day & Night",
-        artist: "Jung Seung Hwan",
-        path: "./music/day and night.mp3",
+        name: "Perfect",
+        artist: "Ed Sheeran",
+        path: "./music/Perfect.mp3",
     },
     {
-        name: "Love of my Life",
-        artist: "Reyne",
-        path: "./music/love of my life.mp3",
-    },
-    {
-        name: "The Only One",
-        artist: "Reyne",
-        path: "./music/the only one.mp3",
+        name: "You are the Reason",
+        artist: "Calum Scott",
+        path: "./music/You Are The Reason.mp3",
     },
 ];
 
